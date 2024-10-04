@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de4a601a-3e7f-4ca8-bfda-a62db57af329" name="Changes" comment="Первый коммит для инициализации">
-      <change afterPath="$PROJECT_DIR$/models/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/organization.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/task.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/enum/complexity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/enum/status.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/repository/organization.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/service/organization.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/usecase/organization.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/usecase/usecase.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/repository/repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +22,25 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/go/go1.23.1" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aurivena"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aurivena&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aurivena/Tryskon-api.git",
-    "accountId": "1e2327e2-5c6e-4e88-889e-bc1cab3e6cc4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aurivena/Tryskon-api.git&quot;,
+    &quot;accountId&quot;: &quot;1e2327e2-5c6e-4e88-889e-bc1cab3e6cc4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -63,7 +57,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/TRY__1",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/home/akeceqm/GolandProjects/Tryskon-api",
@@ -112,7 +106,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;go.mod&#10;#&#9;pkg/repository/repository.go" />
     <MESSAGE value="Первый коммит для инициализации" />
     <option name="LAST_COMMIT_MESSAGE" value="Первый коммит для инициализации" />
   </component>
