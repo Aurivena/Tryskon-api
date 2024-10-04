@@ -6,20 +6,28 @@ import (
 )
 
 type Task struct {
-	TaskByID
+	TaskByUUID
 	UpdateTask
-	IsDone bool `json:"is_done"`
-}
-
-type UpdateTask struct {
-	Title        string             `json:"title"`
-	Description  string             `json:"description"`
-	Complexity   enum.Complexity    `json:"complexity"`
-	Status       enum.Status        `json:"status"`
-	Author       UserByUUID         `json:"author"`
+	IsDone       bool               `json:"is_done"`
 	Organization OrganizationByUUID `json:"organization"`
 }
 
-type TaskByID struct {
+type TaskCreate struct {
+	Title       string     `json:"title"`
+	Description string     `json:"description"`
+	Author      UserByUUID `json:"author"`
+}
+
+type UpdateTask struct {
+	TaskCreate
+	Complexity enum.Complexity `json:"complexity"`
+	Status     enum.Status     `json:"status"`
+}
+
+type TaskByUUID struct {
 	UUID uuid.UUID `json:"uuid"`
+}
+
+type IsDone struct {
+	IsDone bool `json:"is_done"`
 }

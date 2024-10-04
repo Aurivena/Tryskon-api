@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de4a601a-3e7f-4ca8-bfda-a62db57af329" name="Changes" comment="TRY_1" />
+    <list default="true" id="de4a601a-3e7f-4ca8-bfda-a62db57af329" name="Changes" comment="TRY_1 Добавляет в интерфейс функцию">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/organization.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/organization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/repository/repository.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +123,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;go.mod&#10;#&#9;pkg/repository/repository.go" />
     <MESSAGE value="Первый коммит для инициализации" />
     <MESSAGE value="TRY_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TRY_1" />
+    <MESSAGE value="TRY_1 Добавляет в интерфейс функцию" />
+    <option name="LAST_COMMIT_MESSAGE" value="TRY_1 Добавляет в интерфейс функцию" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
