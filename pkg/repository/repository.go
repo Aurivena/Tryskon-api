@@ -10,7 +10,7 @@ type Repository interface {
 
 type User interface {
 	GetUserByID(uuid models.UserByUUID)
-	CreateUser(input models.SignUp) (models.SignUp, error)
+	CreateUser(input models.SignUp) (models.UserByUUID, error)
 	SignIn(input models.SignIn) (models.UserByUUID, error)
 	DeleteUser(uuid models.UserByUUID) error
 	UpdateUser(input models.UpdateUser) (models.UpdateUser, error)

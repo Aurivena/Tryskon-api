@@ -3,7 +3,7 @@ package enum
 type Complexity int
 
 const (
-	HARD   Complexity = 3
-	NORMAL Complexity = 2
-	EASE   Complexity = 1
+	Hard   Complexity = 3
+	Normal Complexity = 2
+	Ease   Complexity = 1
 )

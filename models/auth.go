@@ -7,7 +7,7 @@ import (
 
 type SignIn struct {
 	Login    string `json:"login"`
-	Password string `json:"password"`
+	Password string `json:"password_hash"`
 	Email    string `json:"email"`
 }
 
@@ -29,5 +29,4 @@ type UserByUUID struct {
 type User struct {
 	UserByUUID
 	SignIn
-	UUIDOrganization OrganizationByUUID `json:"uuid_organization"`
 }

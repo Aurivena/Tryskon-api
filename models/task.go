@@ -15,13 +15,13 @@ type Task struct {
 type TaskCreate struct {
 	Title       string     `json:"title"`
 	Description string     `json:"description"`
+	Tag         string     `json:"tag"`
 	Author      UserByUUID `json:"author"`
 }
 
 type UpdateTask struct {
 	TaskCreate
 	Complexity enum.Complexity `json:"complexity"`
-	Status     enum.Status     `json:"status"`
 }
 
 type TaskByUUID struct {
